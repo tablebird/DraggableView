@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DefaultDraggableViewStyle">
+        <item name="draggableEnable">true</item>
+        <item name="maxDragDistance">@dimen/default_max_drag_distance</item>
+        <item name="canRecoverDistance">@dimen/default_can_recover_distance</item>
+        <!--拖拽贝塞尔曲线-->
+        <item name="draggableBezierColor">@color/default_draggable_bezier_color</item>
+        <!--消失动画-->
+        <item name="disappearAnimationArray">@array/default_draggable_disappear_animation_array</item>
+        <item name="disappearAnimationDuration">@integer/default_disappear_animation_duration</item>
+        <item name="disappearAnimationSize">@dimen/default_disappear_animation_size</item>
+        <!--减震运动-->
+        <item name="dampingAnimationDuration">@integer/default_damping_animation_duration</item>
+        <item name="dampingAnimationCount">@integer/default_damping_animation_count</item>
+        <!--跟随消失-->
+        <item name="followDisappearEnable">true</item>
+    </style>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DraggableView">
+        <!--是否启用拖动-->
+        <attr name="draggableEnable" format="boolean"/>
+        <!--拖动的最远距离-->
+        <attr name="maxDragDistance" format="dimension"/>
+        <!--取消拖动的距离-->
+        <attr name="canRecoverDistance" format="dimension"/>
+        <!--原始位置原点的最小半径-->
+        <attr name="minAnchorRadius" format="dimension"/>
+        <!--原始位置原的最大半径-->
+        <attr name="maxAnchorRadius" format="dimension"/>
+        <!--拖动结束后的消失动画帧-->
+        <attr name="disappearAnimationArray" format="reference"/>
+        <!--消失动画持续时间-->
+        <attr name="disappearAnimationDuration" format="integer"/>
+        <!--消失动画的大小-->
+        <attr name="disappearAnimationSize" format="dimension"/>
+        <!--减震动画的持续时间-->
+        <attr name="dampingAnimationDuration" format="integer"/>
+        <!--减震动画的回弹次数-->
+        <attr name="dampingAnimationCount" format="integer"/>
+        <!--拖动的比赛而曲线颜色-->
+        <attr name="draggableBezierColor" format="color"/>
+        <!--是否启用跟随模式消失-->
+        <attr name="followDisappearEnable" format="boolean"/>
+        <!--跟随消失的模式-->
+        <attr name="followDisappearMode" format="enum">
+            <!--同时消失-->
+            <enum name="simultaneously" value="0"/>
+            <!--尾随消失-->
+            <enum name="trailing" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <attr name="DraggableViewStyle" format="reference">
+    </attr>
+</resources>

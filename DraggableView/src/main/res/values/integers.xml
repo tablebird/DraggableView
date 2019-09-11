@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_disappear_animation_duration">300</integer>
+    <integer name="default_damping_animation_duration">200</integer>
+    <integer name="default_damping_animation_count">2</integer>
+</resources>

@@ -1,0 +1,29 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion versions.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion versions.minSdkVersion
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        consumerProguardFile 'proguard-rules.pro'
+    }
+
+    //避免BuildConfig生成
+    libraryVariants.all {
+        it.generateBuildConfigProvider.configure {
+            it.enabled = false
+        }
+    }
+
+}
+
+dependencies {
+    api depends.androidx.appcompat
+    api depends.androidx.annotations
+    testImplementation depends.junit
+    androidTestImplementation depends.androidx.test.runner
+    androidTestImplementation depends.androidx.test.espresso
+}
+
+apply from: rootProject.file('gradle/gradle-mvn-upload.gradle')

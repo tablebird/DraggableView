@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="default_draggable_disappear_animation_array">
+        <item>@drawable/draggable_disappear_a</item>
+        <item>@drawable/draggable_disappear_b</item>
+        <item>@drawable/draggable_disappear_c</item>
+        <item>@drawable/draggable_disappear_d</item>
+        <item>@drawable/draggable_disappear_e</item>
+    </array>
+</resources>

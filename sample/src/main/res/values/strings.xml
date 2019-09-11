@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DraggableView</string>
+    <string name="restore">恢复</string>
+    <string name="switch_follow_disappear_model">切换跟随模式</string>
+    <string name="open_list_activity">open List Activity</string>
+    <string name="unread">未读</string>
+</resources>
